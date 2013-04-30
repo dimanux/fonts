@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="fonts" package="com.gemioli.fonts" version="1.0.0" company="dimanux" />
+	
+	<app main="Main" file="fonts" path="bin" />
+	
+	<window background="#ffffff" fps="60" width="400" height="200" />
+	
+	<haxelib name="nme" />
+	
+	<assets>
+		<font path="cheese.ttf" id="cheese" />
+	</assets>
+	
+	<ndll name="std" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	<ndll name="nme" haxelib="nme" />
+</project>
